@@ -1,37 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>The heftymousehole</title>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-    <style>
-      body,html {
-        height: 100%;
-      }
-      body,h1 {
-        font-family: "Roboto",sans-serif;
-      }
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Nikhil's corner of the web.">
+            <title>Nikhil's Website</title>
+            <link rel="icon" href="favicon.png" type="image/png"/>
+            <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Varela+Round&display=swap" rel="stylesheet">
+            <style>
+                body {
+                    font-family: "Quicksand", sans-serif;
+                    font-size: 28px;
+                    position: relative;
+                    top: 200px;
+                    left: 25%;
+                    width: 50%;
+                    text-align: center;
+                    
+                }
+                h1 {
+                    font-size: 48px;
+                }
+                .header {
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    width: 100%; 
+                    height: fit-content;
+                    text-align: center;
+                    color: black;
+                    background: rgb(255, 255, 255);
+                    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.075),0 25px 25px 0 rgba(0, 0, 0, 0.0375);
+                }
+                .rcorner1 {
+                    position: relative;
+                    top: 25px;
+                    left: -8%;
+                    border-radius: 50px;
+                    height: 80px;
+                    width: 200px;
+                    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.075), 0 0 25px 0 rgba(0, 0, 0, 0.0375);
+                }
+                .rcorner1:hover {
+                    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2), 0 0 30px 0 rgba(0, 0, 0, 0.05);
+                }
+                .rcorner2 {
+                    position: relative;
+                    top: 25px;
+                    left: 8%;
+                    border-radius: 50px;
+                    height: 80px;
+                    width: 200px;
+                    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.075), 0 0 25px 0 rgba(0, 0, 0, 0.0375);
+                }
+                .rcorner2:hover {
+                    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2), 0 0 30px 0 rgba(0, 0, 0, 0.05);
+                }
+                .footer {
+                    position: fixed;
+                    bottom: 0px;
+                    left: 0;
+                    width: 100%; 
+                    height: fit-content;
+                    text-align: left;
+                    color: gray;
+                    font-size: 18px;
+                    background: rgb(255, 255, 255);
+                    box-shadow:  0 -4px 8px 0 rgba(0, 0, 0, 0.075),0 -25px 25px 0 rgba(0, 0, 0, 0.0375);
+                }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Nikhil's Website</h1>
+            </div>
+            <div class="body">
+                <p>
+                    Hello, and welcome to my little corner of the web. My name is Nikhil Bharadwaj, and I'm into electronics, coding, video games and 3D graphics stuff.
+                </p>
+                <p>
+                    Occasionally I'll post updates about things I'm working on, but don't expect regular updates. I tend to lose interest in things relatively quickly, so I'm always on the lookout for my next cool project.
+                </p>
+                <a href="https://www.reddit.com/user/heftymaus"><img class="rcorner1" src="reddit.png"></a>
+                <a href="https://steamcommunity.com/id/heftymouse"><img class="rcorner2" src="steam.png"></a>
+            </div>
+            <div class="footer">
+                <p>&nbsp&nbsp2020 heftymouse. This website was made in about 5 hours and I learnt a lot along the way.</p>
+            </div>
 
-      .parallax {
-        background-image:url('https://www.courant.com/resizer/D9qmAnzR8PY5q-GBdUBBVuNVUTs=/415x311/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/NTWCZKYTDJBI7CASRJ32F2RN6E.jpg');
-        height: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-      }
-    </style>
-  </head>
-  <body>
-    <div class="parallax"></div>
-
-    <div style="height:200px;font-size:36px;font-fa">
-    <h1>Hello World!</h1>
-    <hr>
-    Hello World!
-    </div>
-    <div class="parallax"></div>
-  </body>
-</html>
+        </body>
+    </html>
